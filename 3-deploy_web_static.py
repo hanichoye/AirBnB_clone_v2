@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""
+script (based on the file 2-do_deploy_web_static.py) that creates and
+distributes an archive to web servers
+"""
 import os.path
 from fabric.api import *
 from fabric.operations import run, put
